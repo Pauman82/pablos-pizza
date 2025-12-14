@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: hsl(0, 0%, 20%); 
+    margin: 20; 
+    padding: 10;
+    
+    /* FONDO DE IMAGEN */
+    background-image: url('Gemini_Generated_Image_88ogjp88ogjp88og.png'); 
+    background-size: cover;          
+    background-repeat: no-repeat;    
+    background-attachment: fixed;    
+}
+
+h1 {
+    color: #c42e1d;
+    font-family: 'Bauhaus 93', sans-serif; 
+    font-size: 60px;                  
+    text-align: center;
+}
+
+.pizza h2 {
+    /* TÍTULO DE PIZZA GRANDE Y ROJO */
+    font-size: 32px; 
+    color: #c42e1d; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pizza {
+    background: rgba(203, 204, 190, 0.555);
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px left;
+    max-width: 600px;
+    /* text-align: auto 0 auto; - Esta línea no era válida y se ha quitado si la tenías */
+}
+
+.pizzas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* DOS COLUMNAS */
+    gap: 60px;
+    
+    /* CENTRADO GENERAL del bloque de pizzas */
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+.pizza {
+    text-align: center;
+}
+
+.pizza img {
+    width: 75%;
+    border-radius: 10px;
+}
+
+.pizza p {
+    margin-top: 30px;
+    font-family: 'Bodoni MT Black', sans-serif;
+    font-size: 25px; /* TAMAÑO DE INGREDIENTES */
+}
